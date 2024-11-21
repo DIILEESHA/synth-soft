@@ -20,6 +20,9 @@ const WhatsAppButton = () => {
           padding: "15px",
           cursor: "pointer",
           boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+          display:"flex",
+          alignItems:"center",
+          justifyContent:"center",
         }}
       >
         <FaWhatsapp color="#fff" size={24} />

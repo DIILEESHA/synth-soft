@@ -135,7 +135,7 @@
   color: var(--fifth-font-color);
 }
 .view_lg_text {
-  font-family: myFont;
+  /* font-family: myFont; */
   width: 100%;
   font-size: 50px;
   font-weight: bold;
@@ -219,6 +219,8 @@
 @media screen and (max-width: 1215px) {
   .view_lg_text {
     font-size: 45px;
+    /* text-align: center; */
+    /* margin:0  auto; */
   }
   .hero_main{
     padding: 0 10px;
