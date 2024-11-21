@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./lng.css";
-import Marquee from "react-marquee-slider";
+import Marquee from "react-fast-marquee";
 import times from "lodash/times";
 import languageData from "./languages.json";
 
@@ -30,7 +30,15 @@ export default function Languages() {
       </p>
 
       <div className="mid">
-        <Marquee velocity={1} minScale={1} resetAfterTries={200} >
+        <Marquee gradient={true}
+            gradientWidth={10}
+            pauseOnClick={true}
+            pauseOnHover={true}
+            gradientColor="#070708"
+            speed={10} // Adjust speed as needed
+            direction="left" // Direction of the marquee
+            loop={0} // 0 for infinite looping
+            autoFill={true} >
           {duplicatedImages.map((lg, index) => (
             <div key={index} className="cr">
               <img className="mea" loading="lazy" src={lg.img} alt={lg.title} />
