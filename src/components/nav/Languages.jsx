@@ -31,7 +31,7 @@ export default function Languages() {
 
       <div className="mid">
         <Marquee gradient={true}
-            gradientWidth={10}
+            gradientWidth={11}
             pauseOnClick={true}
             pauseOnHover={true}
             gradientColor="#070708"
