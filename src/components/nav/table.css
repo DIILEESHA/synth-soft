@@ -1,0 +1,88 @@
+.nough {
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 17px;
+  opacity: 70%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.lino {
+  background-color: #fff;
+  opacity: 10%;
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.TabList {
+  gap: 20px;
+  display: flex;
+}
+
+.hotter {
+  width: 100%;
+  border: 1px solid #3a3939;
+}
+
+.jo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.hiba {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tab-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.tab-list {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  align-items: center;justify-content: center;
+  z-index: 10;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: #f0f0f0;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.tab.active {
+  background-color: #d85040;
+  color: white;
+}
+
+.tab-panel {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .tab-panel {
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); */
+    /* gap: 20px; */
+  }
+}

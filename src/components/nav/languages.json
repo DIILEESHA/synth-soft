@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.imgur.com/yMWj9ED.png",
+      "title": "Programming Languages",
+      "para": "I'm proficient in key web languages - HTML, CSS, and JavaScript, enabling me to build web solutions from the ground up."
+    },
+
+    {
+        "id": 1,
+        "img": "https://i.imgur.com/V5GPxES.png",
+        "title": "Programming Languages",
+        "para": "I'm proficient in key web languages - HTML, CSS, and JavaScript, enabling me to build web solutions from the ground up."
+      },
+      {
+        "id": 1,
+        "img": "https://i.imgur.com/90fmhHE.png",
+        "title": "Programming Languages",
+        "para": "I'm proficient in key web languages - HTML, CSS, and JavaScript, enabling me to build web solutions from the ground up."
+      },
+      {
+        "id": 1,
+        "img": "https://i.imgur.com/S9jyBzp.png",
+        "title": "Programming Languages",
+        "para": "I'm proficient in key web languages - HTML, CSS, and JavaScript, enabling me to build web solutions from the ground up."
+      },
+      {
+        "id": 1,
+        "img": "https://i.imgur.com/V5GPxES.png",
+        "title": "Programming Languages",
+        "para": "I'm proficient in key web languages - HTML, CSS, and JavaScript, enabling me to build web solutions from the ground up."
+      }
+    
+  ]
+  
