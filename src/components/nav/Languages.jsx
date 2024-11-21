@@ -26,7 +26,7 @@ export default function Languages() {
         <span className="mooha" style={{ fontWeight: "700" }}>
           projects
         </span>
-        Explore section of myOur clients' feedbackspeaks volumes about our commitment to excellence. Read what they have to say about their experiences working with us
+        Explore section of myOur clients' feedback speaks volumes about our commitment to excellence. Read what they have to say about their experiences working with us
       </p>
 
       <div className="mid">
