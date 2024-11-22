@@ -71,7 +71,7 @@
     /* background-image: url('https://i.imgur.com/wr82owh.png'); */
 /* margin: 100px 0; */
   display: grid;
-  padding: 60px 0px;
+  padding: 60px 0px 20px 0px;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   /* height: 100vh; */
 }
